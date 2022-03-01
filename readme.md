@@ -1,7 +1,9 @@
 Your customer said that he hates doing his grade 1 math homework
-He wants a calculator that calculates the answer for him
+He wants a calculator that calculates the answer for him.
+He've only learned addition and subtraction.
+If I say "5 + 2", you should give me 7
+If I say "8 - 3", you should give me 5
 
-Calculator that prompt user to input an operation and compute the result
 
 >> Enter your operation: 50 + 2
 Your result is: 52!

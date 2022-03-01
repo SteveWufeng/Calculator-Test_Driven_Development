@@ -1,6 +1,6 @@
 """
 Test driven development
-Lecturer: Steve Wufeng
+Author: Steve Wufeng
 """
 
 def add (val1, val2) -> int:
