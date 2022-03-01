@@ -3,25 +3,28 @@ Test driven development
 Lecturer: Steve Wufeng
 """
 
-
-def add (input) -> int:
+def add (val1, val2) -> int:
     """
     function that does addition operation
-    @param input: String
+    @param val1: String
+    @param val2: String
     @return int
     """
-    # TODO: add values and return
+    # TODO: add values and return result
     return 
 
-def minus (input) -> int:
+def minus (val1, val2) -> int:
     """
+    function that does subtraction operation
+    @param val1: String
+    @param val2: String
+    @return int
     """
-    # TODO: minus values and return
+    # TODO: subtract values and return result
     return
-
-def process(input) -> int:
-    """"""
 
 def main ():
     user_input = input(">>Enter your operation: ")
+    user_input = user_input.split(" ")
+    print("your result is: " + add(user_input[0], user_input[2]) + "!")
     
